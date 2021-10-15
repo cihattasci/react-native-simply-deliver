@@ -3,6 +3,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import MainPage from './Screens/MainPage';
 import UploadPage from './Screens/UploadPage';
+import Icon from 'react-native-vector-icons/Entypo';
+Icon.loadFont();
 
 const Stack = createStackNavigator();
 
@@ -18,7 +20,7 @@ function App() {
           <Stack.Screen
             name="UploadPage"
             component={UploadPage}
-            options={{ title: 'Upload Page' }}
+            options={{ title: 'Upload' }}
           />
         </Stack.Navigator>
       </NavigationContainer>
