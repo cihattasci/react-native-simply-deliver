@@ -4,7 +4,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import MainPage from './Screens/MainPage';
 import UploadPage from './Screens/UploadPage';
 import Icon from 'react-native-vector-icons/Entypo';
+import Icon2 from 'react-native-vector-icons/Ionicons';
 Icon.loadFont();
+Icon2.loadFont();
 
 const Stack = createStackNavigator();
 

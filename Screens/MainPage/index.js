@@ -17,7 +17,7 @@ export default class index extends Component {
   }
 
   editSession = (session) => {
-    alert(session.name)
+    this.props.navigation.navigate('UploadPage', {session})
   };
 
   renderSessions = (session) => {
